@@ -1,12 +1,13 @@
-/// @func parser(dialogue_file, section)
+/// @func parser1(dialogue_data, section)
 /// @desc Processes a dialogue text file.
-/// @arg  {real} dialogue_file The file ID of the dialogue file.
+/// @arg  {string} dialogue_data The file data in an array.
 /// @arg  {real} section The dialogue section to parse.
 
-var file = argument0;
+// Do not copy assignment0 to var to prevent copying massive arrays.
 var sect = argument1;
-var ln_chk; // Line checker.
-var i;
+var data_chk; // Line checker. !! Depricated? !!
+var i = 0;
+var p = 0;
 var dia;
 
 // [x,y]
@@ -14,36 +15,29 @@ var dia;
 // y / length = See constants script.
 
 // Select the indicated section.
-ln_chk = file_text_read_string(file);
-while (string_pos(sect, ln_chk) = 0)
+while (!string_pos(sect, argument0[p]))
 {
-	if file_text_eof(file)
+	p++;
+	if (p > array_length_1d(argument0))
 		show_error("Section '" + sect + "' not found!", 1);
-	file_text_readln(file);
-	ln_chk = file_text_read_string(file);
 }
-file_text_readln(file);
-file_text_readln(file);
+// p = array pointer
+p += 2; // Point to first actual line.
 
-// Transcribe each line to an array.
-ln_chk = file_text_read_string(file);
-i = 0;
-while (string_pos(tx_sect_brk, ln_chk) = 0 && !file_text_eof(file))
+// Transcribe each line to the dia array.
+while (!string_pos(tx_sect_brk, argument0[p]) && p < array_length_1d(argument0))
 {
-	dia[i, tx_dia] = ln_chk; // Dialogue.
-	file_text_readln(file);
-	dia[i, tx_col] = file_text_read_string(file); // Color tag.
-	file_text_readln(file);
-	ln_chk = file_text_read_string(file);
-	if ln_chk != ""
+	dia[i, tx_dia] = argument0[p];
+	p++;
+	dia[i, tx_col] = argument0[p];
+	p++;
+	if (argument0[p] != "")
 	{
-		dia[i, tx_eff] = ln_chk; // Effect tag.
-		file_text_readln(file);
+		dia[i, tx_eff] = argument0[p];
+		p++;
 	}
-	// Insert new meta tags above this line, remembering to go to the new line.
-	i++;
-	file_text_readln(file);
-	ln_chk = file_text_read_string(file);
+	// Insert new meta tags above this line, remembering to adjust the pointer.
+	i++; p++;
 }
 
 // Insert line breaks.
