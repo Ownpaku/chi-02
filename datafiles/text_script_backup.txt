@@ -1,0 +1,20 @@
+#red
+REMEMBER TO SAVE THE GODDAMN FILE BEFORE EXECUTING THE PROGRAM!!!
+
+#red
+lol you need to work on word wrapping
+
+#yellow
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce at elit tincidunt, interdum mauris nec, tristique odio. Cras facilisis, est vitae porta rutrum, dolor nisi cursus lorem, quis tincidunt lacus magna vitae libero. 
+
+#white
+What?
+
+#blue
+You heard me...
+
+##
+##
+
+#white
+That's a full line break.

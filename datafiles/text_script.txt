@@ -1,0 +1,50 @@
+=====
+#0.0 Infomational
+
+Syntax of a line:
+- The actual dialogue to display.
+- A color tag for the line.
+- (Optional) An effect or transition tag.
+
+=====
+#1.1 Intro
+
+Hello there!
+#white
+
+Who are you?
+#blue
+
+I don't know. You're the one who came into my house and just... I don't know, started staring at me.
+#white
+#clear
+
+Oh. Well ok then.
+#blue
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras diam felis, maximus nec commodo vitae, scelerisque eget odio. Maecenas volutpat vel lorem in pharetra. Nulla ullamcorper porttitor fringilla. Etiam lorem nunc, fermentum eu metus vitae, posuere porta tortor. Etiam at purus eget magna laoreet vehicula. Suspendisse potenti. Praesent sagittis, mauris quis vestibulum accumsan, libero odio venenatis diam, a aliquet nulla ante ac elit. Suspendisse vehicula ligula at dolor luctus tempus. Aliquam non lectus ultricies, dictum odio eget, commodo lorem. 
+#yellow
+
+What?
+#white
+
+=====
+#1.2 Sectional Test
+
+What's that?
+#green
+
+What's what?
+#orange
+
+A sectional test.
+#green
+
+What about it?
+#orange
+
+I mean what does it all mean? What does the test entale?
+#green
+
+Who knows, young one... Who knows...
+#orange

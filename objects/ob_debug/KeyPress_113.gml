@@ -1,0 +1,1 @@
+show_message(global.test_int);

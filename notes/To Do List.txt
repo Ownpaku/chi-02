@@ -1,0 +1,19 @@
+To Do
+
+Dialogue text:
+	- Color individual words or even letters.
+	- DONE! Adjust next line of text based on previous line's word wrapping.
+	- Show one line per keyboard press.
+	- *Separate a text file into sections of dialogue scripts.
+	- *Allow for screen clearing for new lines within the same section.
+	- Implement italic text.
+	- Implement text scrolling per screen.
+	- Implement text entry or multiple choice.
+	
+	* Modify parser to accommodate.
+
+
+
+Consider
+	- Text scrolling per line.
+	- Text window.
