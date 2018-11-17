@@ -7,6 +7,7 @@
 #macro tx_col 1 // Color tag.
 #macro tx_lns 2 // Line breaks.
 #macro tx_eff 3 // Text effect or transition.
+#macro tx_lst 4 // Start of a list related to the line.
 
 // Dialogue formatting.
 #macro tx_max_len 107 // Max characters per line.

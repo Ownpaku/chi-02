@@ -2,7 +2,7 @@
 /// @desc Load a text file into memory. Returns an array with data from file.
 /// @arg  {string} file_name File to load.
 
-var file = file_text_open_read(working_directory + argument0);
+var file = file_text_open_read(argument0);
 var data;
 
 if !file

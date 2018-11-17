@@ -1,2 +1,2 @@
-global.test_str = "";
-global.test_int = 0;
+global.menuflags = 0;
+global.flags0 = 0x0;

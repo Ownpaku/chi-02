@@ -1,14 +1,16 @@
-To Do
+To Do - Now on GitHub!
+<https://github.com/Ownpaku/chi-02/issues>
 
 Dialogue text:
-	- Color individual words or even letters.
+	- Allow color of individual words or even letters.
 	- DONE! Adjust next line of text based on previous line's word wrapping.
-	- Show one line per keyboard press.
-	- *Separate a text file into sections of dialogue scripts.
-	- *Allow for screen clearing for new lines within the same section.
-	- Implement italic text.
-	- Implement text scrolling per screen.
+	- DONE! Show one line per keyboard press.
+	- DONE! Separate a text file into sections of dialogue scripts.
+	- DONE! Allow for screen clearing for new lines within the same section.
+	- Implement italic and bold text.
+	- Implement text scrolling down the screen.
 	- Implement text entry or multiple choice.
+	- Make and display text in windows.
 	
 	* Modify parser to accommodate.
 
@@ -16,4 +18,3 @@ Dialogue text:
 
 Consider
 	- Text scrolling per line.
-	- Text window.

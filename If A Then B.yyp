@@ -130,7 +130,7 @@
             "Key": "7021502f-a1dd-48aa-ae30-0b4a7dcb78e6",
             "Value": {
                 "id": "d76326b4-c058-41bf-b86e-7877740af741",
-                "resourcePath": "scripts\\parser\\parser.yy",
+                "resourcePath": "scripts\\dia_gen_parser\\dia_gen_parser.yy",
                 "resourceType": "GMScript"
             }
         },
@@ -188,6 +188,14 @@
                 "id": "df7ab823-7076-4608-b4aa-0ce1b66f7866",
                 "resourcePath": "views\\9cac7c4c-3744-4a65-a32b-380974a6cfaa.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "9f10e228-0410-4b2d-96a1-876a5a3f6775",
+            "Value": {
+                "id": "55b47248-50bc-4917-a9f3-1a0a073b14c2",
+                "resourcePath": "datafiles_yy\\test_savefile.txt.yy",
+                "resourceType": "GMIncludedFile"
             }
         },
         {
